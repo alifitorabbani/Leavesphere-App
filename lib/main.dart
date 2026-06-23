@@ -1,0 +1,21 @@
+import 'package:flutter/material.dart';
+import 'screens/splash_screen.dart';
+import 'utils/app_theme.dart';
+
+void main() {
+  runApp(const LeaveSphereApp());
+}
+
+class LeaveSphereApp extends StatelessWidget {
+  const LeaveSphereApp({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      title: 'LeaveSphere',
+      debugShowCheckedModeBanner: false,
+      theme: AppTheme.light,
+      home: const SplashScreen(),
+    );
+  }
+}
