@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # LeaveSphere Mobile — Employee App
 
 Aplikasi Flutter untuk karyawan: mengajukan cuti, melihat riwayat, kalender tim, dan profil. Terhubung ke backend Laravel (LeaveSphere web) lewat REST API + Sanctum token auth.
@@ -133,3 +134,6 @@ lib/
 ## 👥 Tim Pengembang — Kelompok 7
 
 Project ini melengkapi sistem **LeaveSphere** (web admin panel) yang menangani sisi approval/HR, sementara aplikasi mobile ini menangani sisi self-service karyawan.
+=======
+# Leavesphere-App
+>>>>>>> f53b0802d8c0dd815a1a0c9edde5ae8b0ec1829c
